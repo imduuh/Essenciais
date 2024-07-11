@@ -1,0 +1,8 @@
+Comandos:
+  Alerta:
+    Sem_Permissao: '&c➥ Você não tem permissão para executar este comando.'
+    Erro: '&c➥ Erro! Use: /alerta <mensagem>'
+    Mensagem:
+    - ' '
+    - '&4&lAVISO: &c{mensagem}'
+    - ' '

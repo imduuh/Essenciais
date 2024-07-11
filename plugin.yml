@@ -1,0 +1,8 @@
+name: Essenciais
+version: 1.0
+author: [TantsZ]
+main: me.tantsz.essenciais.Main
+
+commands:
+  alert:
+    aliases: [alerta, alertar]
