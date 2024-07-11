@@ -1,0 +1,2 @@
+# Essenciais
+ Plugin de essenciais
