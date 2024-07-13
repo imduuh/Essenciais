@@ -4,10 +4,10 @@
 
 # Comandos
 
-**/alert** - Comando para mandar um aviso destacado no chat.
+**/alert** - Comando para mandar um aviso destacado no chat.<br/>
 **/clearchat** - Comando para limpar o chat.
 
 # Permissões
 
-**essenciais.alert** - Permissão para usar o comando /alert
+**essenciais.alert** - Permissão para usar o comando /alert<br/>
 **essenciais.clearchat** - Permissão para usar o comando /clearchat
