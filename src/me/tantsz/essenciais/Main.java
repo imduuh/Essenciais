@@ -6,6 +6,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import me.tantsz.essenciais.commands.Alert;
+import me.tantsz.essenciais.commands.ClearChat;
 
 public class Main extends JavaPlugin {
 	public static Main main;
@@ -22,6 +23,7 @@ public class Main extends JavaPlugin {
 	public void onEnable() {
 		main = this;
 		getCommand("alert").setExecutor(new Alert());
+		getCommand("clearchat").setExecutor(new ClearChat());
 		if (!(new File(getDataFolder(), "config.yml")).exists()) {
 			saveDefaultConfig();
 		}

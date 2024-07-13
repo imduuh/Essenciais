@@ -6,3 +6,7 @@ Comandos:
     - ' '
     - '&4&lAVISO: &c{mensagem}'
     - ' '
+  
+  ClearChat:
+    Sem_Permissao: '&c➥ Você não tem permissão para executar este comando.'
+    Sucesso: '&a➥ Você limpou o chat com sucesso!'
