@@ -4,9 +4,9 @@ import java.io.File;
 import java.io.IOException;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
-
 import me.tantsz.essenciais.commands.Alert;
 import me.tantsz.essenciais.commands.ClearChat;
+import me.tantsz.essenciais.commands.Online;
 
 public class Main extends JavaPlugin {
 	public static Main main;
@@ -22,8 +22,7 @@ public class Main extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		main = this;
-		getCommand("alert").setExecutor(new Alert());
-		getCommand("clearchat").setExecutor(new ClearChat());
+		commands();
 		if (!(new File(getDataFolder(), "config.yml")).exists()) {
 			saveDefaultConfig();
 		}
@@ -51,6 +50,12 @@ public class Main extends JavaPlugin {
 		Bukkit.getConsoleSender().sendMessage("§eAuthor: §fTantsZ");
 		Bukkit.getConsoleSender().sendMessage("§eVersao: §f1.0");
 		Bukkit.getConsoleSender().sendMessage("");
+	}
+	
+	public void commands() {
+		getCommand("alert").setExecutor(new Alert());
+		getCommand("clearchat").setExecutor(new ClearChat());
+		getCommand("online").setExecutor(new Online());
 	}
 	
 }

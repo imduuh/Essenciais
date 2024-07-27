@@ -1,5 +1,5 @@
 name: Essenciais
-version: 1.0.1
+version: 1.0.3
 author: [TantsZ]
 main: me.tantsz.essenciais.Main
 
@@ -8,3 +8,5 @@ commands:
     aliases: [alerta, alertar]
   clearchat:
     aliases: [cc, limparchat]
+  online:
+    aliases: [on, ons]
