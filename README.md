@@ -5,7 +5,8 @@
 # Comandos
 
 **/alert** - Comando para mandar um aviso destacado no chat.<br/>
-**/clearchat** - Comando para limpar o chat.
+**/clearchat** - Comando para limpar o chat.<br/>
+**/online** - Comando para mostrar a quantidade de jogadores online.
 
 # Permissões
 
