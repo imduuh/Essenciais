@@ -8,5 +8,9 @@ commands:
     aliases: [alerta, alertar]
   clearchat:
     aliases: [cc, limparchat]
+  cleardrops:
+  clearmobs:
+  craft:
+    aliases: [craftable, workbench]
   online:
     aliases: [on, ons]

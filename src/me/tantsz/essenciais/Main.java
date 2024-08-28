@@ -6,6 +6,9 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 import me.tantsz.essenciais.commands.Alert;
 import me.tantsz.essenciais.commands.ClearChat;
+import me.tantsz.essenciais.commands.ClearDrops;
+import me.tantsz.essenciais.commands.ClearMobs;
+import me.tantsz.essenciais.commands.Craft;
 import me.tantsz.essenciais.commands.Online;
 
 public class Main extends JavaPlugin {
@@ -55,6 +58,9 @@ public class Main extends JavaPlugin {
 	public void commands() {
 		getCommand("alert").setExecutor(new Alert());
 		getCommand("clearchat").setExecutor(new ClearChat());
+		getCommand("cleardrops").setExecutor(new ClearDrops());
+		getCommand("clearmobs").setExecutor(new ClearMobs());
+		getCommand("craft").setExecutor(new Craft());
 		getCommand("online").setExecutor(new Online());
 	}
 	

@@ -11,5 +11,17 @@ Comandos:
     Sem_Permissao: '&c➥ Você não tem permissão para executar este comando.'
     Sucesso: '&a➥ Você limpou o chat com sucesso!'
     
+  ClearDrops:
+    Sem_Permissao: '&c➥ Você não tem permissão para executar este comando.'
+    Sucesso: '&a➥ Você limpou &e{quantidade} &adrops do servidor!'
+    
+  ClearMobs:
+    Sem_Permissao: '&c➥ Você não tem permissão para executar este comando.'
+    Sucesso: '&a➥ Você matou &e{quantidade} &aanimais e mobs do servidor!'
+    
+  Craft:
+    Somente_Players: '&cEsse comando só pode ser executado IN-GAME.'
+    Sem_Permissao: '&c➥ Somente jogadores &6VIP &ctem acesso a este comando.'
+
   Online:
     Mensagem: '§a➥ Atualmente temos §e{quantidade} §aJogadores online.'
