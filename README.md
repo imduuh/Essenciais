@@ -17,4 +17,4 @@
 **essenciais.clearchat** - Permissão para usar o comando /clearchat<br/>
 **essenciais.cleardrops** - Permissão para usar o comando /cleadrops<br/>
 **essenciais.clearmobs** - Permissão para usar o comando /clearmobs<br/>
-**essenciais.clearcraft** - Permissão para usar o comando /craft
+**essenciais.craft** - Permissão para usar o comando /craft
